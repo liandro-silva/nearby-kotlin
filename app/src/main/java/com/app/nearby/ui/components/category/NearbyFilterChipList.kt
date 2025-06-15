@@ -57,7 +57,7 @@ private fun NearbyFilterChipListPreview() {
             NearbyCategory(id = "1", name = "Alimentação"),
             NearbyCategory(id = "2", name = "Cinema"),
             NearbyCategory(id = "3", name = "Compras"),
-        ),
+            ),
         onSelectedCategoryChange = { selectedCategory -> println(selectedCategory) }
     )
 }
